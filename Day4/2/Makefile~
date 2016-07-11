@@ -1,4 +1,0 @@
-mm: mm.o 
-	gcc  mm.o -lpthread -o mm
-mm.o: socket_server.c
-	gcc -c socket_server.c
